@@ -1,5 +1,7 @@
 package com.wfz.crm.dao;
 
-public interface UserDao {
+import com.wfz.crm.entity.UserEntity;
 
+public interface UserDao {
+	public UserEntity selectUser(UserEntity userEntity);
 }
